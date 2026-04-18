@@ -1,0 +1,41 @@
+name: Weekly Stock Analysis (Monday)
+
+on:
+  schedule:
+    - cron: '0 1 * * 1'   # 毎週月曜 UTC1:00 (JST10:00)
+    - cron: '5 1 * * 1'   # フォールバック
+  workflow_dispatch:
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Screen stocks
+        run: python scripts/screen.py data/screened.json
+
+      - name: Analyze with Claude
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/analyze.py data/screened.json data/predictions.json
+
+      - name: Commit results
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "bot: 週次分析実行 #${{ github.run_number }}"
+          file_pattern: "data/*.json"
