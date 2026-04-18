@@ -23,33 +23,54 @@ def calc_rsi(prices, period=14):
     rs = gain / loss
     return 100 - (100 / (1 + rs))
 
+def fetch_batch(tickers, start, end, retries=3):
+    for attempt in range(retries):
+        try:
+            raw = yf.download(
+                tickers,
+                start=start,
+                end=end,
+                group_by='ticker',
+                auto_adjust=True,
+                threads=False,
+                progress=False
+            )
+            return raw
+        except Exception as e:
+            print(f"  Batch error (attempt {attempt+1}): {e}", flush=True)
+            time.sleep(10 * (attempt + 1))
+    return None
+
 def screen_stocks(tickers, top_n=100):
     end = datetime.now()
     start = end - timedelta(days=60)
+    start_str = start.strftime('%Y-%m-%d')
+    end_str = end.strftime('%Y-%m-%d')
+    week_ago = end - timedelta(days=7)
 
-    print(f"Fetching data for {len(tickers)} tickers...", flush=True)
-    raw = yf.download(
-        tickers,
-        start=start.strftime('%Y-%m-%d'),
-        end=end.strftime('%Y-%m-%d'),
-        group_by='ticker',
-        auto_adjust=True,
-        threads=True,
-        progress=False
-    )
+    BATCH_SIZE = 50
+    all_data = {}
+
+    for i in range(0, len(tickers), BATCH_SIZE):
+        batch = tickers[i:i+BATCH_SIZE]
+        print(f"Fetching batch {i//BATCH_SIZE+1}/{(len(tickers)-1)//BATCH_SIZE+1} ({len(batch)} tickers)...", flush=True)
+        raw = fetch_batch(batch, start_str, end_str)
+        if raw is None:
+            continue
+        for ticker in batch:
+            try:
+                df = raw[ticker] if len(batch) > 1 else raw
+                all_data[ticker] = df.dropna()
+            except:
+                continue
+        time.sleep(3)
 
     scores = []
-    week_ago = end - timedelta(days=7)
 
     for ticker in tickers:
         try:
-            if len(tickers) == 1:
-                df = raw
-            else:
-                df = raw[ticker]
-
-            df = df.dropna()
-            if len(df) < 20:
+            df = all_data.get(ticker)
+            if df is None or len(df) < 20:
                 continue
 
             close = df['Close']
