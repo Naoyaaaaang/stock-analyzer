@@ -30,7 +30,6 @@ def fetch_batch(tickers, start, end, retries=3):
                 tickers,
                 start=start,
                 end=end,
-                group_by='ticker',
                 auto_adjust=True,
                 threads=False,
                 progress=False
@@ -59,7 +58,13 @@ def screen_stocks(tickers, top_n=100):
             continue
         for ticker in batch:
             try:
-                df = raw[ticker] if len(batch) > 1 else raw
+                if len(batch) > 1:
+                    if isinstance(raw.columns, pd.MultiIndex):
+                        df = raw.xs(ticker, level=1, axis=1)
+                    else:
+                        df = raw[ticker]
+                else:
+                    df = raw
                 all_data[ticker] = df.dropna()
             except:
                 continue
