@@ -1,6 +1,1807 @@
 {
-  "week": "2026-W20",
-  "generatedAt": "2026-05-11T05:09:25.179342",
-  "total": 0,
-  "stocks": []
+  "week": "2026-W21",
+  "generatedAt": "2026-05-18T05:19:12.874172",
+  "total": 100,
+  "stocks": [
+    {
+      "ticker": "ENPH",
+      "weeklyReturn": 41.12,
+      "currentPrice": 52.89,
+      "prevWeekPrice": 37.48,
+      "volumeRatio": 1.68,
+      "rsi": 79.6,
+      "score": 59.752,
+      "direction": "DOWN",
+      "confidence": 4,
+      "reason": "先週41%以上の急騰により、RSIが79.6と著しく買われすぎの水準に達しており、短期的な利益確定売りが予想される。出来高が平均の1.68倍と高水準で急騰を伴っているため、反動下落のリスクが高い。ニュース材料がない中での急騰は持続性に疑問があり、テクニカル的な調整局面入りが見込まれる。",
+      "keyFactors": [
+        "RSI 79.6の買われすぎシグナル",
+        "週間リターン41%超の過熱感による利益確定売り圧力",
+        "ニュース材料不在での急騰は持続性に乏しい"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "CSCO",
+      "weeklyReturn": 19.06,
+      "currentPrice": 118.21,
+      "prevWeekPrice": 99.29,
+      "volumeRatio": 2.4,
+      "rsi": 89.3,
+      "score": 48.7736,
+      "direction": "DOWN",
+      "confidence": 4,
+      "reason": "RSIが89.3と極めて過買われ圏にあり、短期的な調整圧力が高まっている。週間リターンが19%超と急騰し、出来高が平均の2.4倍に達していることから、利益確定売りが出やすい状況にある。このような急上昇後の反動は統計的にも起こりやすく、来週は調整局面に入る可能性が高い。",
+      "keyFactors": [
+        "RSI 89.3の極端な過買われシグナル",
+        "週間19%超の急騰による利益確定売り圧力",
+        "出来高2.4倍による需給の過熱感"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "PANW",
+      "weeklyReturn": 12.63,
+      "currentPrice": 242.83,
+      "prevWeekPrice": 215.6,
+      "volumeRatio": 1.46,
+      "rsi": 92.8,
+      "score": 34.3479,
+      "direction": "DOWN",
+      "confidence": 4,
+      "reason": "RSIが92.8と極度の買われ過ぎ水準にあり、短期的な調整圧力が非常に高い。今週すでに12.63%の大幅上昇を記録しており、利益確定売りが入りやすい状況にある。出来高も平均の1.46倍と高く、急騰後の反落パターンに一致している。",
+      "keyFactors": [
+        "RSI 92.8の極度の買われ過ぎ状態",
+        "週間12.63%の急騰後の利益確定売り圧力",
+        "平均を上回る出来高による過熱感"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "ZTS",
+      "weeklyReturn": -3.54,
+      "currentPrice": 74.22,
+      "prevWeekPrice": 76.94,
+      "volumeRatio": 2.29,
+      "rsi": 5.2,
+      "score": 34.3012,
+      "direction": "UP",
+      "confidence": 4,
+      "reason": "RSIが5.2という極めて低い水準は、株が著しく売られ過ぎの状態にあることを示しており、テクニカルな反発が期待される。出来高が平均の2.29倍と急増していることは、売りが集中したことを示すが、こうした極端な売り過ぎからは通常リバウンドが起きやすい。今週の-3.54%の下落と合わせて考えると、短期的な買い戻しの可能性が高い。",
+      "keyFactors": [
+        "RSI 5.2という極端な売られ過ぎシグナル",
+        "出来高が平均の2.29倍に急増",
+        "週間-3.54%の急落によるテクニカルリバウンド期待"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "F",
+      "weeklyReturn": 11.76,
+      "currentPrice": 13.4,
+      "prevWeekPrice": 11.99,
+      "volumeRatio": 2.87,
+      "rsi": 59.3,
+      "score": 34.2354,
+      "direction": "DOWN",
+      "confidence": 3,
+      "reason": "先週11.76%という大幅な上昇と出来高が平均の2.87倍に達しており、短期的な過熱感が懸念される。RSIは59.3と過熱圏には入っていないものの、急騰後の利益確定売りが入りやすい水準にある。直近ニュースがなく材料不足の中、急上昇からの反落リスクが高まっている。",
+      "keyFactors": [
+        "先週11.76%の急騰による短期的な過熱と利益確定売り圧力",
+        "出来高が平均の2.87倍と異常に高く、投機的な動きの可能性",
+        "材料となるニュースが不明で上昇の持続性に疑問"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "AEP",
+      "weeklyReturn": -5.15,
+      "currentPrice": 125.15,
+      "prevWeekPrice": 131.94,
+      "volumeRatio": 2.66,
+      "rsi": 32.0,
+      "score": 28.9816,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが32.0と売られすぎ圏に入っており、テクニカル的なリバウンドが期待される。今週の出来高が平均の2.66倍と急増しており、売りが一巡した可能性がある。ただし、ニュースが不在のため下落要因の確認ができず、不確実性は残る。",
+      "keyFactors": [
+        "RSI 32.0（売られすぎ水準）によるテクニカルリバウンド期待",
+        "出来高が平均の2.66倍と急増し、売りの過剰反応の可能性",
+        "週間-5.15%の大幅下落後の自律反発余地"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "ZBRA",
+      "weeklyReturn": 7.26,
+      "currentPrice": 259.35,
+      "prevWeekPrice": 241.79,
+      "volumeRatio": 1.96,
+      "rsi": 73.5,
+      "score": 26.2728,
+      "direction": "DOWN",
+      "confidence": 3,
+      "reason": "RSIが73.5と過買い圏に入っており、短期的な調整圧力が高まっている。今週の出来高が平均の約2倍と急増した中での7.26%上昇は、短期的な上昇が行き過ぎた可能性を示唆する。ニュースがない状況では、テクニカル的な過熱感が来週の反落リスクを高める要因となる。",
+      "keyFactors": [
+        "RSI 73.5の過買い水準による調整リスク",
+        "出来高が平均の1.96倍と急増した中での急騰",
+        "今週の7.26%上昇後の利益確定売り圧力"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "CRWD",
+      "weeklyReturn": 8.77,
+      "currentPrice": 594.08,
+      "prevWeekPrice": 546.18,
+      "volumeRatio": 1.11,
+      "rsi": 89.9,
+      "score": 25.7936,
+      "direction": "DOWN",
+      "confidence": 4,
+      "reason": "RSIが89.9と極めて過買い圏に達しており、短期的な調整圧力が非常に高い状態です。今週既に8.77%の大幅上昇を記録しており、利益確定売りが出やすい局面です。テクニカル指標が過熱感を示しているため、来週は反落または調整の可能性が高いと判断します。",
+      "keyFactors": [
+        "RSI 89.9と極度の過買い水準",
+        "週間8.77%の急騰後の利益確定売り圧力",
+        "出来高が平均の1.11倍と上昇を伴うが、過熱感が強い"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "CEG",
+      "weeklyReturn": -8.85,
+      "currentPrice": 267.2,
+      "prevWeekPrice": 293.14,
+      "volumeRatio": 1.82,
+      "rsi": 28.7,
+      "score": 25.6169,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが28.7と極度の売られすぎ水準に達しており、技術的なリバウンドの可能性が高い。今週の-8.85%という大幅な下落と平均の1.82倍の出来高は売りが過剰に集中したことを示しており、短期的な反発が期待される。ただし、ニュースが不明のため下落の根本原因が不透明であり、確信度は中程度にとどまる。",
+      "keyFactors": [
+        "RSI 28.7の極度売られすぎシグナル",
+        "今週-8.85%の急落後の技術的リバウンド期待",
+        "出来高1.82倍による過剰売り圧力の一巡"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "LKQ",
+      "weeklyReturn": -8.34,
+      "currentPrice": 24.61,
+      "prevWeekPrice": 26.85,
+      "volumeRatio": 1.43,
+      "rsi": 19.6,
+      "score": 24.8388,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが19.6と極端な売られ過ぎ水準にあり、短期的なテクニカルリバウンドが期待される。今週の-8.34%という大幅下落と平均の1.43倍の出来高は売り圧力が一巡した可能性を示唆している。ただし、ニュースがなく下落の根本要因が不明なため、リバウンドの持続性には不確実性が残る。",
+      "keyFactors": [
+        "RSI19.6の極端な売られ過ぎシグナル",
+        "週間-8.34%の急落後のテクニカルリバウンド期待",
+        "出来高1.43倍による売り圧力の一巡可能性"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "TTWO",
+      "weeklyReturn": 7.28,
+      "currentPrice": 242.44,
+      "prevWeekPrice": 225.99,
+      "volumeRatio": 1.47,
+      "rsi": 81.3,
+      "score": 24.5158,
+      "direction": "DOWN",
+      "confidence": 4,
+      "reason": "RSIが81.3と極めて過買い圏に達しており、短期的な調整圧力が高い。今週すでに7.28%上昇し出来高も平均の1.47倍と急騰しているため、利益確定売りが入りやすい状況。ニュースがない中での急騰は持続性に疑問があり、来週は反落の可能性が高い。",
+      "keyFactors": [
+        "RSI 81.3の過買いシグナル",
+        "週間7.28%の急騰後の利益確定売り圧力",
+        "平均比1.47倍の高出来高による短期的な過熱感"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "FTNT",
+      "weeklyReturn": 7.82,
+      "currentPrice": 122.78,
+      "prevWeekPrice": 113.87,
+      "volumeRatio": 0.92,
+      "rsi": 92.3,
+      "score": 23.9904,
+      "direction": "DOWN",
+      "confidence": 4,
+      "reason": "RSIが92.3と極めて過買い状態にあり、短期的な調整圧力が非常に高い。今週7.82%の上昇を記録しているが、出来高比率が0.92xと平均を下回っており、上昇の持続性に疑問がある。テクニカル指標からの平均回帰リスクが高く、来週は利益確定売りが出やすい環境にある。",
+      "keyFactors": [
+        "RSI92.3の極端な過買い水準による調整リスク",
+        "出来高が平均以下(0.92x)で上昇トレンドの裏付けが弱い",
+        "今週の急騰(+7.82%)後の利益確定売り圧力"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "CBRE",
+      "weeklyReturn": -9.79,
+      "currentPrice": 129.95,
+      "prevWeekPrice": 144.06,
+      "volumeRatio": 1.38,
+      "rsi": 24.1,
+      "score": 23.9391,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが24.1と極端な売られすぎ水準にあり、テクニカルリバウンドの可能性が高い。今週約10%の大幅下落と平均の1.38倍の出来高は売りが過剰に集中したことを示しており、短期的な自律反発が期待できる。ただし、ニュースが入手できないため下落の根本原因が不明であり、確信度は中程度に留まる。",
+      "keyFactors": [
+        "RSI 24.1による極端な売られすぎシグナル",
+        "週間-9.79%の急落後の自律反発期待",
+        "出来高1.38倍による売りの集中と需給の偏り"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "TYL",
+      "weeklyReturn": 0.72,
+      "currentPrice": 311.89,
+      "prevWeekPrice": 309.65,
+      "volumeRatio": 2.82,
+      "rsi": 38.4,
+      "score": 23.545,
+      "direction": "NEUTRAL",
+      "confidence": 2,
+      "reason": "RSI38.4はやや売られすぎ圏に近づいており、短期的な反発の可能性があるものの、直近ニュースが不在のため方向性を判断する材料が限られている。出来高が平均の2.82倍と大幅に増加しているため、何らかの大きな動きが水面下で起きている可能性があるが、週次リターン+0.72%は概ね中立的な水準にとどまっている。",
+      "keyFactors": [
+        "RSI38.4による売られすぎ圏接近と反発シグナル",
+        "出来高2.82倍という異常な増加が不明確な圧力を示唆",
+        "ニュース不在による方向性判断の困難さ"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "GEN",
+      "weeklyReturn": 6.4,
+      "currentPrice": 23.45,
+      "prevWeekPrice": 22.04,
+      "volumeRatio": 1.31,
+      "rsi": 84.3,
+      "score": 23.2464,
+      "direction": "DOWN",
+      "confidence": 4,
+      "reason": "RSIが84.3と極度の買われすぎ水準に達しており、短期的な調整圧力が高まっている。今週すでに6.4%の上昇を記録しており、利益確定売りが出やすい状況にある。出来高も平均の1.31倍と増加しており、過熱感が強い。",
+      "keyFactors": [
+        "RSI 84.3 - 極度の買われすぎ水準",
+        "週間リターン+6.4%による利益確定売り圧力",
+        "出来高1.31倍の高水準で過熱感"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "HUM",
+      "weeklyReturn": 3.31,
+      "currentPrice": 305.12,
+      "prevWeekPrice": 295.35,
+      "volumeRatio": 1.38,
+      "rsi": 87.4,
+      "score": 22.1011,
+      "direction": "DOWN",
+      "confidence": 4,
+      "reason": "RSIが87.4と極端な買われすぎ水準にあり、短期的な利益確定売りが予想される。今週すでに3.31%上昇し、出来高も平均の1.38倍と高水準であることから、モメンタムの反転リスクが高い。テクニカル的な過熱感が強く、来週は調整局面に入る可能性が高い。",
+      "keyFactors": [
+        "RSI 87.4という極端な買われすぎシグナル",
+        "今週3.31%の急騰による利益確定売り圧力",
+        "平均比1.38倍の高出来高による短期過熱感"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "HPE",
+      "weeklyReturn": 9.57,
+      "currentPrice": 33.1,
+      "prevWeekPrice": 30.21,
+      "volumeRatio": 1.45,
+      "rsi": 68.8,
+      "score": 21.6354,
+      "direction": "NEUTRAL",
+      "confidence": 2,
+      "reason": "先週9.57%の大幅上昇を記録し、RSIが68.8と過買い圏に近づいているため、短期的な利益確定売りが発生しやすい状況にある。出来高比率が1.45倍と増加しているが、ニュースが不明なため上昇の持続性を判断するのが難しい。テクニカル面では調整局面入りの可能性があるが、明確な下落要因も確認できない。",
+      "keyFactors": [
+        "RSI 68.8と過買い圏に近接、短期的な反落リスク",
+        "先週9.57%の急騰後の利益確定売り圧力",
+        "最近のニュースなく上昇の根拠が不透明"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "MTD",
+      "weeklyReturn": -3.81,
+      "currentPrice": 1031.64,
+      "prevWeekPrice": 1072.45,
+      "volumeRatio": 1.76,
+      "rsi": 24.8,
+      "score": 21.516,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが24.8と極度の売られ過ぎ水準にあり、テクニカル的なリバウンドの可能性が高い。今週の出来高が平均の1.76倍と高く、売り圧力のクライマックスを示唆している可能性がある。ただし、直近のニュースがなく下落要因が不明なため、確信度は中程度にとどまる。",
+      "keyFactors": [
+        "RSI 24.8：極度の売られ過ぎ水準でテクニカルリバウンド期待",
+        "出来高が平均比1.76倍：売りクライマックスの可能性",
+        "週間下落率-3.81%：短期的な自律反発の余地あり"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "JKHY",
+      "weeklyReturn": -5.43,
+      "currentPrice": 136.87,
+      "prevWeekPrice": 144.73,
+      "volumeRatio": 1.78,
+      "rsi": 29.4,
+      "score": 21.5153,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが29.4と極めて低く、売られ過ぎの状態を示しており、テクニカルなリバウンドが期待される。今週の-5.43%という大幅な下落と平均の1.78倍の出来高は、過剰な売り圧力が存在したことを示唆しており、短期的な反発の可能性が高い。ただし、ニュースが不明なため下落の根本原因が不透明であり、確信度は中程度にとどまる。",
+      "keyFactors": [
+        "RSI29.4の売られ過ぎシグナル",
+        "出来高1.78倍での急落による過剰売り圧力",
+        "ニュース不在による不確実性"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "CDW",
+      "weeklyReturn": 2.79,
+      "currentPrice": 102.07,
+      "prevWeekPrice": 99.3,
+      "volumeRatio": 1.54,
+      "rsi": 19.0,
+      "score": 20.57,
+      "direction": "UP",
+      "confidence": 4,
+      "reason": "RSIが19.0という極端な売られすぎ水準にあり、テクニカル的なリバウンドが強く示唆されている。今週の出来高が平均の1.54倍と高く、売りの勢いが一巡しつつある可能性がある。週次リターンが+2.79%とすでに反発の兆しが見られ、来週も上昇継続が期待できる。",
+      "keyFactors": [
+        "RSI 19.0の極端な売られすぎ水準による技術的リバウンド期待",
+        "出来高が平均比1.54倍と高く、売り圧力の転換点となっている可能性",
+        "今週すでに+2.79%の反発が始まっており、モメンタムの回復傾向"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "LULU",
+      "weeklyReturn": -4.79,
+      "currentPrice": 119.14,
+      "prevWeekPrice": 125.13,
+      "volumeRatio": 1.04,
+      "rsi": 12.5,
+      "score": 20.2492,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが12.5という極めて低い水準は、株価が著しく売られすぎの状態にあることを示しており、テクニカルなリバウンドの可能性が高い。今週の-4.79%の下落により短期的な売り圧力は出尽くしている可能性がある。ただし、ニュースが不明な状況では根本的な悪材料が存在する可能性も否定できないため、確信度は中程度にとどまる。",
+      "keyFactors": [
+        "RSI 12.5の極端な売られすぎシグナル",
+        "週間-4.79%の下落による売り圧力の消化",
+        "ニュース不明によるファンダメンタルズリスクの不確実性"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "EPAM",
+      "weeklyReturn": -2.23,
+      "currentPrice": 93.02,
+      "prevWeekPrice": 95.14,
+      "volumeRatio": 1.31,
+      "rsi": 13.3,
+      "score": 20.0661,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが13.3と極端に売られすぎの水準にあり、テクニカル的なリバウンドが期待される。週次リターンが-2.23%と下落が続いているが、出来高が平均の1.31倍と増加しており、底値圏での売り枯れが示唆される。ただし、直近のニュースが不明なため、ファンダメンタルズ面のリスクには注意が必要。",
+      "keyFactors": [
+        "RSI 13.3の極端な売られすぎ水準",
+        "出来高が平均の1.31倍に増加",
+        "ニュース不在によるファンダメンタルズリスク"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "SPGI",
+      "weeklyReturn": -4.96,
+      "currentPrice": 403.15,
+      "prevWeekPrice": 424.17,
+      "volumeRatio": 1.2,
+      "rsi": 17.5,
+      "score": 19.9996,
+      "direction": "UP",
+      "confidence": 4,
+      "reason": "RSIが17.5と極度の売られすぎ水準にあり、テクニカルリバウンドが強く示唆される。週間騰落率が-4.96%と大幅下落したことで短期的な売り圧力は既に消化されつつある。出来高比率が平均の1.2倍と高水準であることは売りの最終局面を示している可能性がある。",
+      "keyFactors": [
+        "RSI 17.5という極端な売られすぎシグナル",
+        "週間-4.96%の急落後のテクニカルリバウンド期待",
+        "出来高1.2倍が示すセリングクライマックスの可能性"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "DHR",
+      "weeklyReturn": -2.62,
+      "currentPrice": 161.91,
+      "prevWeekPrice": 166.26,
+      "volumeRatio": 1.05,
+      "rsi": 8.0,
+      "score": 19.9458,
+      "direction": "UP",
+      "confidence": 4,
+      "reason": "RSIが8.0という極めて深い売られすぎ水準に達しており、テクニカル的なリバウンドが強く示唆されます。週間リターンが-2.62%と下落が続いていますが、このような極端な水準では短期的な反発が起こりやすい傾向があります。出来高比率も平均並みであり、パニック売りが一巡した可能性が高いです。",
+      "keyFactors": [
+        "RSI 8.0という極端な売られすぎ水準（通常30以下で売られすぎ）",
+        "週間-2.62%の下落による過度な売り圧力の消化",
+        "出来高比率1.05xと平常水準、異常な売り圧力は見られない"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "TRMB",
+      "weeklyReturn": -2.44,
+      "currentPrice": 55.13,
+      "prevWeekPrice": 56.51,
+      "volumeRatio": 1.41,
+      "rsi": 17.0,
+      "score": 19.7557,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが17.0という極端な売られすぎ水準に達しており、テクニカル的なリバウンドが期待される。出来高比率が1.41倍と平均を上回っており、売り圧力が一時的に集中している可能性がある。ただし、最近のニュースがなく、下落の根本的な原因が不明なため、確信度は中程度にとどまる。",
+      "keyFactors": [
+        "RSI17.0の極端な売られすぎシグナル",
+        "出来高1.41倍の異常増加",
+        "直近週-2.44%の急落によるリバウンド期待"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "LDOS",
+      "weeklyReturn": -3.66,
+      "currentPrice": 123.69,
+      "prevWeekPrice": 128.39,
+      "volumeRatio": 1.42,
+      "rsi": 20.8,
+      "score": 19.5597,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが20.8と極端な売られすぎ水準にあり、テクニカル的なリバウンドが期待される。今週の出来高が平均の1.42倍と高く、売りが一巡した可能性がある。ただし、ニュースが不明なため下落要因の確認ができず、不確実性は残る。",
+      "keyFactors": [
+        "RSI 20.8の極度な売られすぎシグナル",
+        "平均比1.42倍の高出来高による売り圧力の消化",
+        "週間-3.66%の急落後のテクニカルリバウンド期待"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "NRG",
+      "weeklyReturn": -6.94,
+      "currentPrice": 127.81,
+      "prevWeekPrice": 137.34,
+      "volumeRatio": 1.2,
+      "rsi": 23.6,
+      "score": 19.5157,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが23.6と極度の売られすぎ水準にあり、テクニカルリバウンドの可能性が高い。今週-6.94%の大幅下落後、短期的な買い戻しが入りやすい局面である。ただし、ニュースが不明なため下落の根本的な要因が不透明であり、上昇の持続性には注意が必要。",
+      "keyFactors": [
+        "RSI 23.6の極度な売られすぎシグナル",
+        "週間-6.94%の大幅下落後のリバウンド期待",
+        "出来高1.2倍と平均超えだが根本的要因不明"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "BWA",
+      "weeklyReturn": -0.83,
+      "currentPrice": 63.21,
+      "prevWeekPrice": 63.74,
+      "volumeRatio": 2.15,
+      "rsi": 67.4,
+      "score": 19.2918,
+      "direction": "DOWN",
+      "confidence": 3,
+      "reason": "RSIが67.4と買われ過ぎ水準に近づいており、短期的な調整圧力が高まっている。出来高が平均の2.15倍と大幅に増加しているにもかかわらず、今週はマイナスリターンとなっており、売り圧力が優勢である可能性を示唆している。直近のニュースがなく、材料不足の中では高RSIと高出来高の組み合わせは慎重な見方が必要。",
+      "keyFactors": [
+        "RSI67.4による過熱感と調整リスク",
+        "平均の2.15倍という高出来高にもかかわらずマイナスリターン",
+        "ニュース不足による材料難で上値が重い展開"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "SHW",
+      "weeklyReturn": -3.68,
+      "currentPrice": 300.1,
+      "prevWeekPrice": 311.58,
+      "volumeRatio": 1.6,
+      "rsi": 26.2,
+      "score": 19.2307,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "",
+      "keyFactors": [
+        "RSI26.2の極度な売られすぎ水準",
+        "出来高1.6倍の急増による売り圧力の加速",
+        "週間-3.68%の大幅下落後の反発期待"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "CSGP",
+      "weeklyReturn": -1.12,
+      "currentPrice": 32.68,
+      "prevWeekPrice": 33.05,
+      "volumeRatio": 2.1,
+      "rsi": 32.3,
+      "score": 19.1705,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが32.3と売られすぎの水準に近づいており、テクニカル的なリバウンドの可能性が高まっている。出来高が平均の2.1倍と急増しており、底値圏での大量売りが一巡した可能性を示唆している。ただし、直近ニュースが不明なため、ファンダメンタル面の不確実性は残る。",
+      "keyFactors": [
+        "RSI32.3の売られすぎ水準によるテクニカルリバウンド期待",
+        "出来高が平均の2.1倍に急増し、売りの一巡を示唆",
+        "直近1週間で-1.12%下落後の自律反発の可能性"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "HUBB",
+      "weeklyReturn": -1.24,
+      "currentPrice": 479.97,
+      "prevWeekPrice": 485.98,
+      "volumeRatio": 1.16,
+      "rsi": 9.7,
+      "score": 18.9992,
+      "direction": "UP",
+      "confidence": 4,
+      "reason": "RSIが9.7という極端に売られすぎの水準にあり、テクニカル的な反発が強く期待される。出来高比率が1.16倍と平均を上回っており、売りが集中した後の底打ちシグナルとして解釈できる。先週-1.24%の下落を経て、短期的なリバウンドの可能性が高い。",
+      "keyFactors": [
+        "RSI 9.7という極度の売られすぎ水準（通常30以下で売られすぎ）",
+        "平均を上回る出来高（1.16x）による売り圧力の一巡示唆",
+        "テクニカルリバウンドによる平均回帰の可能性"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "TECH",
+      "weeklyReturn": -8.69,
+      "currentPrice": 43.3,
+      "prevWeekPrice": 47.42,
+      "volumeRatio": 1.22,
+      "rsi": 29.9,
+      "score": 18.9086,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが29.9と売られすぎの水準（30以下）に達しており、短期的なリバウンドの可能性が高い。今週-8.69%という大幅下落と出来高1.22倍の増加は売り圧力のピークを示唆しており、テクニカル的には反発のタイミングに近い。ただし、具体的なニュースがないため、下落の根本的な要因が不明であり、リバウンドの持続性には不確実性が残る。",
+      "keyFactors": [
+        "RSI 29.9：売られすぎ水準でテクニカルリバウンドの可能性",
+        "週間-8.69%の大幅下落後の自律反発期待",
+        "出来高1.22倍増加による売り圧力のピークアウト示唆"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "POOL",
+      "weeklyReturn": -3.11,
+      "currentPrice": 175.35,
+      "prevWeekPrice": 180.98,
+      "volumeRatio": 1.09,
+      "rsi": 12.8,
+      "score": 18.8271,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが12.8という極端な売られ過ぎ水準にあり、テクニカル的なリバウンドが期待される。今週-3.11%の下落を経て、短期的な自律反発の可能性が高い。ただし、ニュースがなく、根本的な要因が不明なため確信度は中程度にとどまる。",
+      "keyFactors": [
+        "RSI 12.8という極端な売られ過ぎシグナル",
+        "今週-3.11%の下落による短期的な自律反発期待",
+        "出来高が平均の1.09倍と若干高く、売り圧力の存在を示唆"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "TJX",
+      "weeklyReturn": -1.56,
+      "currentPrice": 147.43,
+      "prevWeekPrice": 149.77,
+      "volumeRatio": 1.6,
+      "rsi": 22.1,
+      "score": 18.7062,
+      "direction": "UP",
+      "confidence": 4,
+      "reason": "RSIが22.1と極端な売られすぎ水準にあり、テクニカルなリバウンドが強く期待される。出来高が平均の1.6倍と高く、売りが集中した後の反発局面に入る可能性が高い。TJXはディフェンシブな小売業者として業績の安定性が高く、過度な下落からの回復が見込まれる。",
+      "keyFactors": [
+        "RSI 22.1と極度の売られすぎ水準でテクニカルリバウンド期待",
+        "出来高1.6倍増で売り圧力の集中後の反転シグナル",
+        "TJXのディフェンシブビジネスモデルによるファンダメンタルズの安定性"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "PM",
+      "weeklyReturn": 1.43,
+      "currentPrice": 189.61,
+      "prevWeekPrice": 186.93,
+      "volumeRatio": 1.27,
+      "rsi": 86.1,
+      "score": 18.5787,
+      "direction": "DOWN",
+      "confidence": 4,
+      "reason": "RSIが86.1と極めて過買い領域に入っており、短期的な調整圧力が高まっている。出来高比率も1.27倍と平均を上回っており、週間リターン1.43%の上昇後には利益確定売りが入りやすい状況にある。テクニカル指標から見ると、来週は反落または調整局面に入る可能性が高い。",
+      "keyFactors": [
+        "RSI 86.1の極端な過買いシグナル",
+        "出来高増加を伴う急騰後の利益確定売り圧力",
+        "直近1週間で1.43%上昇し短期的な高値圏に到達"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "GPC",
+      "weeklyReturn": -7.81,
+      "currentPrice": 92.87,
+      "prevWeekPrice": 100.74,
+      "volumeRatio": 0.97,
+      "rsi": 23.2,
+      "score": 18.2408,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "",
+      "keyFactors": [
+        "RSI過売り水準(23.2)による技術的反発期待",
+        "先週の急落(-7.81%)後の自律反発の可能性",
+        "出来高が平均並みで特段の売り圧力なし"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "VST",
+      "weeklyReturn": -4.9,
+      "currentPrice": 139.68,
+      "prevWeekPrice": 146.87,
+      "volumeRatio": 1.31,
+      "rsi": 25.5,
+      "score": 17.7975,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが25.5と極めて売られ過ぎの水準にあり、テクニカル的なリバウンドが期待される。今週の-4.9%の下落と出来高1.31倍の増加は売り圧力の強さを示すが、過度な売り込みからの反発局面に入る可能性が高い。ただし直近ニュースがなく、下落の根本的な要因が不明なため、確信度はやや低め。",
+      "keyFactors": [
+        "RSI 25.5と極度の売られ過ぎ水準でテクニカルリバウンドの可能性",
+        "週間-4.9%の急落後の自律反発期待",
+        "出来高が平均比1.31倍と高く、売りのクライマックスに近い可能性"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "VST",
+      "weeklyReturn": -4.9,
+      "currentPrice": 139.68,
+      "prevWeekPrice": 146.87,
+      "volumeRatio": 1.31,
+      "rsi": 25.5,
+      "score": 17.7975,
+      "direction": "UP",
+      "confidence": 4,
+      "reason": "RSIが25.5と極めて売られ過ぎの水準にあり、テクニカル的なリバウンドが期待される。今週の-4.9%の下落と平均比1.31倍の出来高は売りの過剰反応を示唆しており、短期的な反発の可能性が高い。ただし、ニュースがない状況での判断のため、外部要因には注意が必要。",
+      "keyFactors": [
+        "RSI 25.5による極端な売られ過ぎシグナル",
+        "今週-4.9%の急落後の自律反発期待",
+        "出来高が平均比1.31倍と高く、売りの一巡感"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "DG",
+      "weeklyReturn": -0.58,
+      "currentPrice": 102.38,
+      "prevWeekPrice": 102.98,
+      "volumeRatio": 1.72,
+      "rsi": 25.4,
+      "score": 17.6287,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "",
+      "keyFactors": [
+        "RSI極度売られ過ぎ水準(25.4)",
+        "出来高増加(平均の1.72倍)での下落は底値示唆",
+        "テクニカルリバウンドの可能性"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "APH",
+      "weeklyReturn": -2.24,
+      "currentPrice": 125.0,
+      "prevWeekPrice": 127.87,
+      "volumeRatio": 1.69,
+      "rsi": 29.0,
+      "score": 17.551,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが29と極端な売られすぎ水準にあり、テクニカル的なリバウンドが期待される。今週の出来高が平均の1.69倍と高く、売りが集中した後の反転シグナルとして解釈できる。ただし、ニュースが不在のため下落の根本要因が不明であり、確実性には限界がある。",
+      "keyFactors": [
+        "RSI 29と売られすぎ水準でテクニカルリバウンドの可能性",
+        "出来高が平均の1.69倍と高く、売り圧力が一時的に集中した可能性",
+        "直近週の-2.24%下落後の自律反発期待"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "BR",
+      "weeklyReturn": -2.61,
+      "currentPrice": 145.62,
+      "prevWeekPrice": 149.53,
+      "volumeRatio": 1.74,
+      "rsi": 31.4,
+      "score": 17.4588,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "",
+      "keyFactors": [
+        "RSI oversold (31.4)",
+        "High volume selloff (1.74x)",
+        "Technical rebound expected"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "CRL",
+      "weeklyReturn": -10.58,
+      "currentPrice": 150.85,
+      "prevWeekPrice": 168.69,
+      "volumeRatio": 1.07,
+      "rsi": 34.6,
+      "score": 17.4357,
+      "direction": "DOWN",
+      "confidence": 3,
+      "reason": "先週-10.58%の大幅下落を記録しており、RSIが34.6と売られすぎ圏に近い水準にある。ただし、RSIが30を下回っていないため、短期的な反発の可能性も残る。ニュースが入手できないため、下落の具体的な要因は不明だが、出来高比率が平均並みであることから、機関投資家による継続的な売りの可能性がある。",
+      "keyFactors": [
+        "先週-10.58%の大幅下落による下降トレンドの継続",
+        "RSI 34.6は売られすぎ水準に近づいているが、まだ反発サインは不明確",
+        "出来高比率1.07xと平均的な水準で、特段の底打ちシグナルなし"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "NTAP",
+      "weeklyReturn": 3.18,
+      "currentPrice": 119.93,
+      "prevWeekPrice": 116.23,
+      "volumeRatio": 1.39,
+      "rsi": 75.6,
+      "score": 17.3612,
+      "direction": "DOWN",
+      "confidence": 3,
+      "reason": "RSIが75.6と過買い圏に達しており、短期的な調整圧力が高まっている。出来高が平均の1.39倍と増加していることは上昇トレンドを支持するが、RSIの過熱感から利益確定売りが出やすい状況にある。直近週で3.18%上昇した後は、テクニカル的な反落リスクが意識されやすい。",
+      "keyFactors": [
+        "RSI 75.6の過買いシグナル",
+        "週間上昇率3.18%後の利益確定売り圧力",
+        "出来高増加による上昇継続の可能性も残存"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "NVR",
+      "weeklyReturn": -4.0,
+      "currentPrice": 5563.62,
+      "prevWeekPrice": 5795.66,
+      "volumeRatio": 1.08,
+      "rsi": 18.8,
+      "score": 17.2934,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが18.8と極めて売られすぎの水準にあり、テクニカル的なリバウンドが期待される。先週の-4.0%の下落と売られすぎシグナルが組み合わさることで、短期的な買い戻しが入りやすい状況だ。ただし、明確な材料がなく、住宅建設セクター全体の動向次第では回復が限定的になる可能性もある。",
+      "keyFactors": [
+        "RSI18.8という極端な売られすぎ水準によるテクニカルリバウンドの可能性",
+        "先週-4.0%の大幅下落後の自律反発期待",
+        "出来高比率1.08xと平均並みで、特段の売り圧力の継続は示唆されていない"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "ALLE",
+      "weeklyReturn": -4.3,
+      "currentPrice": 125.65,
+      "prevWeekPrice": 131.3,
+      "volumeRatio": 0.92,
+      "rsi": 15.5,
+      "score": 17.2479,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが15.5という極端な売られ過ぎ水準に達しており、テクニカル的なリバウンドが期待される。今週-4.3%の下落を記録したが、出来高は平均を下回っており、売り圧力が弱まっている可能性がある。ニュースがない中での急落は過剰反応の可能性があり、短期的な回復が見込まれる。",
+      "keyFactors": [
+        "RSI 15.5という極端な売られ過ぎシグナル",
+        "出来高が平均を下回り売り圧力の低下を示唆",
+        "今週-4.3%の急落後のテクニカルリバウンド期待"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "MU",
+      "weeklyReturn": -5.47,
+      "currentPrice": 724.66,
+      "prevWeekPrice": 766.58,
+      "volumeRatio": 1.36,
+      "rsi": 70.1,
+      "score": 17.0716,
+      "direction": "DOWN",
+      "confidence": 3,
+      "reason": "RSIが70.1と過買い圏に達しており、短期的な調整圧力が高まっています。先週すでに-5.47%の下落を記録し、出来高も平均の1.36倍と高水準であることから、売り圧力が継続する可能性があります。ただし、半導体セクターの需要動向や市場全体の動きによっては反発の余地もあるため、確信度は中程度です。",
+      "keyFactors": [
+        "RSI70超えによる過買いシグナル",
+        "先週比-5.47%の大幅下落トレンド継続懸念",
+        "平均を上回る出来高による売り圧力"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "CVS",
+      "weeklyReturn": 0.78,
+      "currentPrice": 95.89,
+      "prevWeekPrice": 95.15,
+      "volumeRatio": 1.38,
+      "rsi": 80.9,
+      "score": 16.9511,
+      "direction": "DOWN",
+      "confidence": 4,
+      "reason": "RSIが80.9と著しく買われすぎの水準にあり、短期的な調整リスクが高い。出来高比率が1.38倍と平均を上回っており、直近の上昇に過熱感が伴っている。テクニカル指標から来週は利益確定売りが出やすい環境と判断される。",
+      "keyFactors": [
+        "RSI 80.9の買われすぎシグナル",
+        "出来高が平均の1.38倍と高水準",
+        "直近0.78%上昇後の短期過熱感"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "HD",
+      "weeklyReturn": -4.17,
+      "currentPrice": 297.51,
+      "prevWeekPrice": 310.46,
+      "volumeRatio": 1.29,
+      "rsi": 25.7,
+      "score": 16.7621,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "",
+      "keyFactors": [
+        "RSI oversold (25.7)",
+        "技術的リバウンド期待",
+        "出来高増加による売られ過ぎ確認"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "CZR",
+      "weeklyReturn": 9.41,
+      "currentPrice": 27.8,
+      "prevWeekPrice": 25.41,
+      "volumeRatio": 1.68,
+      "rsi": 48.7,
+      "score": 16.6796,
+      "direction": "NEUTRAL",
+      "confidence": 2,
+      "reason": "先週9.41%の大幅上昇を記録し、出来高も平均の1.68倍と高水準だったが、RSIは48.7と中立圏にあり過熱感はない。ただし、急騰後の利益確定売りが発生する可能性もあり、ニュースがない中では方向感が定まりにくい。直近の上昇が持続するかどうかは不透明で、横ばい推移が想定される。",
+      "keyFactors": [
+        "先週9.41%の急騰後の反動・利益確定売りリスク",
+        "RSI48.7と中立圏で過熱感なし、上値余地も限定的",
+        "出来高1.68倍の高水準が続くか注目、ニュース不在で材料不足"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "ALB",
+      "weeklyReturn": -12.23,
+      "currentPrice": 180.38,
+      "prevWeekPrice": 205.52,
+      "volumeRatio": 0.98,
+      "rsi": 38.3,
+      "score": 16.6715,
+      "direction": "DOWN",
+      "confidence": 3,
+      "reason": "ALBは先週-12.23%の大幅下落を記録しており、RSIが38.3と売られすぎ水準に近いものの、まだ反発サインは出ていない。リチウム価格の低迷やEV需要の不透明感が引き続き重石となっており、売り圧力が継続する可能性が高い。ニュースが不在の中、ネガティブなモメンタムが短期的に続く見込み。",
+      "keyFactors": [
+        "先週-12.23%の急落によるネガティブモメンタム継続",
+        "RSI 38.3と弱気傾向、まだ明確な底打ちサインなし",
+        "リチウム市場の需給悪化とEV需要減速懸念"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "AAPL",
+      "weeklyReturn": 1.84,
+      "currentPrice": 300.23,
+      "prevWeekPrice": 294.8,
+      "volumeRatio": 0.95,
+      "rsi": 88.4,
+      "score": 16.6666,
+      "direction": "DOWN",
+      "confidence": 4,
+      "reason": "RSIが88.4と極めて過買い領域に達しており、短期的な調整圧力が高い状態です。週間リターン+1.84%の上昇後、テクニカル指標は売られすぎの反転リスクを強く示唆しています。出来高比率が0.95xと平均をやや下回っており、上昇トレンドの勢いに陰りが見え始めています。",
+      "keyFactors": [
+        "RSI 88.4：極度の過買いシグナル、平均回帰リスク大",
+        "出来高が平均以下(0.95x)で上昇の勢いが不足",
+        "直近1週間で+1.84%上昇後の利益確定売り圧力"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "BRO",
+      "weeklyReturn": 0.91,
+      "currentPrice": 56.28,
+      "prevWeekPrice": 55.77,
+      "volumeRatio": 1.46,
+      "rsi": 22.1,
+      "score": 16.6462,
+      "direction": "UP",
+      "confidence": 4,
+      "reason": "RSIが22.1と極めて売られすぎの水準にあり、テクニカル的なリバウンドが強く期待される。出来高が平均の1.46倍と増加しており、底値圏での買い集めの可能性がある。今週すでに0.91%のプラスリターンを示しており、反転の初期兆候が見られる。",
+      "keyFactors": [
+        "RSI 22.1という極度の売られすぎ水準によるテクニカルリバウンド期待",
+        "平均の1.46倍という高い出来高が底値圏での関心を示唆",
+        "今週の週次リターン+0.91%が反転トレンドの初期シグナルを示している"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "COR",
+      "weeklyReturn": -1.01,
+      "currentPrice": 257.71,
+      "prevWeekPrice": 260.33,
+      "volumeRatio": 1.39,
+      "rsi": 21.2,
+      "score": 16.3917,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが21.2と極めて深い売られ過ぎ水準にあり、テクニカルリバウンドの可能性が高い。出来高比率が1.39倍と平均を上回っており、底値での買い関心が示唆される。ただし、直近ニュースがないため材料面での判断が難しく、慎重な姿勢も必要。",
+      "keyFactors": [
+        "RSI 21.2という極端な売られ過ぎ水準によるテクニカルリバウンド期待",
+        "平均比1.39倍の出来高増加が底値圏での関心を示唆",
+        "直近ニュース不在により上昇の材料的根拠が不明確"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "PODD",
+      "weeklyReturn": -6.88,
+      "currentPrice": 147.46,
+      "prevWeekPrice": 158.35,
+      "volumeRatio": 1.1,
+      "rsi": 29.1,
+      "score": 16.21,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが29.1と売られすぎの水準（30以下）に達しており、テクニカル的なリバウンドが期待される。今週すでに約6.88%の下落を記録しており、短期的な過売り状態からの反発が見込まれる。ただし、最近のニュースがなく下落の根本的な要因が不明なため、確信度は中程度にとどまる。",
+      "keyFactors": [
+        "RSI 29.1による売られすぎシグナル（テクニカルリバウンド期待）",
+        "週間-6.88%の急落による短期的な過売り状態",
+        "出来高が平均の1.1倍と若干高く、売り圧力の一巡の可能性"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "TRGP",
+      "weeklyReturn": 6.6,
+      "currentPrice": 271.99,
+      "prevWeekPrice": 255.16,
+      "volumeRatio": 1.08,
+      "rsi": 72.0,
+      "score": 16.2068,
+      "direction": "DOWN",
+      "confidence": 3,
+      "reason": "RSIが72.0と過買い圏に達しており、短期的な調整圧力が高まっている。直近週で6.6%の上昇を記録しており、利益確定売りが入りやすい水準にある。特段の新材料がない中での急騰は持続性に疑問符がつく。",
+      "keyFactors": [
+        "RSI72.0の過買いシグナル",
+        "週間6.6%の急騰後の調整リスク",
+        "ニュース不在による上昇持続の根拠薄弱"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "DHI",
+      "weeklyReturn": -5.5,
+      "currentPrice": 135.39,
+      "prevWeekPrice": 143.27,
+      "volumeRatio": 0.96,
+      "rsi": 22.4,
+      "score": 16.1571,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが22.4と極めて売られ過ぎの水準にあり、テクニカル的なリバウンドが期待される。先週-5.5%の下落で短期的な売り圧力は一巡しつつあり、過売り状態からの自律反発が見込まれる。ただし、住宅市場の金利環境や業績見通しに関するニュースが不明なため、上昇幅は限定的となる可能性がある。",
+      "keyFactors": [
+        "RSI 22.4の極端な売られ過ぎシグナル",
+        "先週-5.5%の急落後のテクニカルリバウンド期待",
+        "出来高比率0.96xで特異な売り圧力は見られず"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "J",
+      "weeklyReturn": -3.19,
+      "currentPrice": 110.51,
+      "prevWeekPrice": 114.15,
+      "volumeRatio": 1.69,
+      "rsi": 34.8,
+      "score": 16.1474,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが34.8と売られ過ぎ領域に近づいており、テクニカル的なリバウンドの可能性が示唆される。今週の出来高が平均の1.69倍と高く、売りが一巡しつつある可能性がある。ただし、直近のニュースがなく材料面での確認ができないため、確信度は中程度にとどまる。",
+      "keyFactors": [
+        "RSI 34.8と売られ過ぎ水準に接近し、テクニカルリバウンドの可能性",
+        "出来高が平均の1.69倍と増加しており、売りクライマックスの兆候",
+        "直近ニュース不在により追加の下落材料が確認できない"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "PNR",
+      "weeklyReturn": -3.43,
+      "currentPrice": 72.68,
+      "prevWeekPrice": 75.26,
+      "volumeRatio": 0.86,
+      "rsi": 14.7,
+      "score": 16.14,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが14.7と極端な売られ過ぎ水準にあり、テクニカル的なリバウンドが期待される。今週の-3.43%の下落と平均以下の出来高（0.86倍）は売りが一巡しつつある可能性を示唆している。ただし、特定のカタリストとなるニュースがない中での反発は限定的かもしれない。",
+      "keyFactors": [
+        "RSI 14.7という極度の売られ過�ぎシグナル",
+        "出来高が平均以下で売り圧力の減少を示唆",
+        "今週の大幅下落（-3.43%）後のテクニカルリバウンド期待"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "ROST",
+      "weeklyReturn": -2.26,
+      "currentPrice": 212.75,
+      "prevWeekPrice": 217.67,
+      "volumeRatio": 1.69,
+      "rsi": 32.6,
+      "score": 16.14,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが32.6と売られすぎゾーンに近い水準にあり、テクニカルなリバウンドが期待される。出来高が平均の1.69倍と高く、売りが一時的に集中した可能性があり、反発の条件が整いつつある。ただし、直近週で-2.26%の下落となっており、下落トレンドが継続するリスクも残る。",
+      "keyFactors": [
+        "RSI 32.6と売られすぎ水準に近く、テクニカルリバウンドの可能性",
+        "出来高が平均比1.69倍と高く、売りが集中した後の反発期待",
+        "ニュースなしで材料不足のため方向性の不確実性が高い"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "SBAC",
+      "weeklyReturn": -6.55,
+      "currentPrice": 199.62,
+      "prevWeekPrice": 213.61,
+      "volumeRatio": 1.03,
+      "rsi": 27.0,
+      "score": 16.0228,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが27.0と極めて売られすぎの水準に達しており、テクニカル的なリバウンドが期待される。先週-6.55%の大幅下落後、短期的な自律反発の可能性が高い。ただし、ニュースが不在であり、下落の根本原因が不明なため、上昇の持続性には不確実性が残る。",
+      "keyFactors": [
+        "RSI 27.0と過売られ状態によるテクニカルリバウンド期待",
+        "先週-6.55%の急落後の自律反発可能性",
+        "出来高比率1.03xで平均並みのため、特段の売り圧力なし"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "MAS",
+      "weeklyReturn": -6.68,
+      "currentPrice": 65.14,
+      "prevWeekPrice": 69.8,
+      "volumeRatio": 0.97,
+      "rsi": 25.9,
+      "score": 16.0195,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "",
+      "keyFactors": [
+        "RSI過売り水準(25.9)",
+        "先週の大幅下落(-6.68%)からの反発期待",
+        "出来高が平均並みで売り圧力は特段増加していない"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "PYPL",
+      "weeklyReturn": -2.27,
+      "currentPrice": 44.41,
+      "prevWeekPrice": 45.44,
+      "volumeRatio": 1.22,
+      "rsi": 21.2,
+      "score": 15.9563,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "",
+      "keyFactors": [
+        "RSI極度売られ過ぎ水準(21.2)",
+        "平均より高い出来高(1.22x)での売り",
+        "テクニカルリバウンド期待"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "VRSN",
+      "weeklyReturn": 4.12,
+      "currentPrice": 297.57,
+      "prevWeekPrice": 285.8,
+      "volumeRatio": 0.91,
+      "rsi": 81.7,
+      "score": 15.9542,
+      "direction": "DOWN",
+      "confidence": 3,
+      "reason": "RSIが81.7と大幅に買われ過ぎゾーンに入っており、短期的な調整圧力が高まっている。今週既に4.12%上昇しているため、利益確定売りが出やすい水準にある。出来高が平均を下回っており、上昇の勢いに持続性が乏しい。",
+      "keyFactors": [
+        "RSI 81.7の極端な買われ過ぎ状態",
+        "週間4.12%上昇後の利益確定売り圧力",
+        "出来高が平均比0.91倍と低く上昇モメンタム不足"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "PHM",
+      "weeklyReturn": -3.88,
+      "currentPrice": 110.11,
+      "prevWeekPrice": 114.55,
+      "volumeRatio": 1.16,
+      "rsi": 23.8,
+      "score": 15.9495,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが23.8と極めて売られすぎの水準にあり、テクニカルなリバウンドが期待される。先週の-3.88%の下落と出来高増加(1.16x)は売り圧力の強さを示すが、この水準からの短期的な自律反発が見込まれる。ただし、住宅建設セクターの金利懸念などファンダメンタルズリスクが依然残るため、確信度は中程度にとどまる。",
+      "keyFactors": [
+        "RSI極度oversold (23.8)",
+        "テクニカル反発期待",
+        "出来高増加による売り圧力確認後の反発可能性"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "EBAY",
+      "weeklyReturn": 5.19,
+      "currentPrice": 116.13,
+      "prevWeekPrice": 110.4,
+      "volumeRatio": 0.93,
+      "rsi": 78.2,
+      "score": 15.8005,
+      "direction": "DOWN",
+      "confidence": 3,
+      "reason": "RSIが78.2と強い買われすぎゾーンに入っており、短期的な調整圧力が高まっている。今週すでに5.19%上昇しており、利益確定売りが入りやすい水準にある。出来高比率が0.93xと平均を下回っており、上昇の勢いに力強さが欠ける。",
+      "keyFactors": [
+        "RSI 78.2の買われすぎシグナル",
+        "週次5.19%の急上昇後の利益確定売り圧力",
+        "出来高が平均以下で上昇トレンドの持続力に疑問"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "CNC",
+      "weeklyReturn": -1.75,
+      "currentPrice": 58.27,
+      "prevWeekPrice": 59.31,
+      "volumeRatio": 0.92,
+      "rsi": 86.9,
+      "score": 15.7772,
+      "direction": "DOWN",
+      "confidence": 4,
+      "reason": "RSIが86.9と極めて過買い圏に達しており、短期的な調整圧力が強い状況です。直近1週間で-1.75%の下落を示しており、既に下降トレンドが始まっている可能性があります。取引量も平均の0.92倍と低調で、上昇を支えるモメンタムが不足しています。",
+      "keyFactors": [
+        "RSI 86.9と著しい過買い水準、強い売り圧力の示唆",
+        "直近週の-1.75%下落による下降トレンドの兆候",
+        "出来高が平均以下（0.92x）で上昇モメンタム欠如"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "CBOE",
+      "weeklyReturn": 2.03,
+      "currentPrice": 363.02,
+      "prevWeekPrice": 355.8,
+      "volumeRatio": 1.16,
+      "rsi": 80.4,
+      "score": 15.728,
+      "direction": "DOWN",
+      "confidence": 3,
+      "reason": "RSIが80.4と強い買われ過ぎ水準にあり、短期的な調整圧力が高まっている。今週2.03%の上昇を記録したが、このような過熱感は利益確定売りを誘発しやすい。取引量も平均の1.16倍と若干高く、短期的なピークの可能性を示唆している。",
+      "keyFactors": [
+        "RSI 80.4の買われ過ぎ水準",
+        "今週2.03%上昇後の利益確定売り圧力",
+        "平均を上回る取引量（1.16倍）"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "HSIC",
+      "weeklyReturn": 4.86,
+      "currentPrice": 72.72,
+      "prevWeekPrice": 69.35,
+      "volumeRatio": 1.6,
+      "rsi": 38.1,
+      "score": 15.6581,
+      "direction": "NEUTRAL",
+      "confidence": 2,
+      "reason": "先週4.86%の上昇を記録し出来高も平均の1.6倍と高く、短期的な反発の動きが見られる。ただしRSI38.1は売られすぎに近い水準で、まだ下降トレンドの中にある可能性を示している。最近のニュースがないため、外部要因の判断が困難で方向性が不透明な状態が続くと予想される。",
+      "keyFactors": [
+        "RSI38.1が示す売られすぎに近い水準からの反発可能性",
+        "出来高1.6倍の高水準が示す投資家の注目度上昇",
+        "ニュース不在による材料難と不確実性"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "BA",
+      "weeklyReturn": -6.92,
+      "currentPrice": 220.49,
+      "prevWeekPrice": 236.87,
+      "volumeRatio": 1.52,
+      "rsi": 41.3,
+      "score": 15.6008,
+      "direction": "DOWN",
+      "confidence": 3,
+      "reason": "BAは今週-6.92%と大幅下落し、出来高が平均の1.52倍と高水準であることから、売り圧力が強いことが示唆される。RSIが41.3と中立圏の下方に位置しており、売られすぎには至っていないため、さらなる下落余地がある。ニュースが不在のため、現在のモメンタムとテクニカル指標を基に判断すると、弱気トレンドの継続が見込まれる。",
+      "keyFactors": [
+        "今週-6.92%の大幅下落と高出来高(1.52x)が示す強い売り圧力",
+        "RSI 41.3が弱気モメンタムを示しつつも売られすぎ水準未達",
+        "ボーイングの製造・労働・財務問題など構造的懸念の継続リスク"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "WY",
+      "weeklyReturn": -3.28,
+      "currentPrice": 22.68,
+      "prevWeekPrice": 23.45,
+      "volumeRatio": 1.18,
+      "rsi": 23.8,
+      "score": 15.5609,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが23.8と極端な売られすぎ水準に達しており、テクニカルリバウンドの可能性が高い。出来高が平均の1.18倍と増加しており、売り圧力がある程度消化されたと見られる。ただし、最近のニュースがなく、住宅市場や木材需要の基本的な環境が不透明なため、確信度は中程度にとどまる。",
+      "keyFactors": [
+        "RSI23.8の極端な売られすぎ水準",
+        "平均比1.18倍の出来高増加（売り圧力の消化）",
+        "週間-3.28%の下落後のテクニカル反発期待"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "ATO",
+      "weeklyReturn": -3.0,
+      "currentPrice": 176.48,
+      "prevWeekPrice": 181.94,
+      "volumeRatio": 1.52,
+      "rsi": 31.8,
+      "score": 15.5425,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが31.8と売られすぎ水準に近づいており、テクニカル的なリバウンドが期待される。今週の出来高が平均の1.52倍と高く、売り圧力が一時的に集中した可能性があり、その反動が来週に出やすい状況にある。ATOはディフェンシブなガス公益事業銘柄であり、過度な下落後は安定配当を求める買い需要が戻りやすい。",
+      "keyFactors": [
+        "RSI 31.8と売られすぎ水準に近く、テクニカルリバウンドの可能性",
+        "出来高1.52倍の急増は短期的な売り集中を示唆し、需給改善が期待される",
+        "公益事業銘柄としてのディフェンシブ特性が下値を支える"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "MRNA",
+      "weeklyReturn": -7.94,
+      "currentPrice": 49.04,
+      "prevWeekPrice": 53.27,
+      "volumeRatio": 1.72,
+      "rsi": 50.8,
+      "score": 15.486,
+      "direction": "DOWN",
+      "confidence": 3,
+      "reason": "MRNAは今週すでに約8%下落し、出来高が平均の1.72倍と高水準で売り圧力が強いことを示している。RSIは50.8とほぼ中立水準だが、高出来高を伴う急落後は売り勢いが継続する傾向がある。ニュースがない中での大幅下落は機関投資家による売りの可能性を示唆しており、短期的な回復は限定的と見られる。",
+      "keyFactors": [
+        "高出来高を伴う急落（-7.94%）",
+        "平均の1.72倍の出来高による売り圧力",
+        "mRNAワクチン需要の継続的な減少懸念"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "INTC",
+      "weeklyReturn": -9.82,
+      "currentPrice": 108.77,
+      "prevWeekPrice": 120.61,
+      "volumeRatio": 0.97,
+      "rsi": 64.7,
+      "score": 15.3979,
+      "direction": "DOWN",
+      "confidence": 3,
+      "reason": "直近1週間で-9.82%という大幅な下落を記録しており、短期的な売り圧力が継続する可能性が高い。RSIが64.7と比較的高水準にあり、過熱感から更なる調整が予想される。出来高比率が平均並みであることから、特段の買い意欲も見られない。",
+      "keyFactors": [
+        "先週-9.82%の大幅下落による売り圧力継続",
+        "RSI 64.7と高水準で過熱感あり、調整リスク",
+        "出来高が平均並みで反発の勢いが不足"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "RL",
+      "weeklyReturn": -3.06,
+      "currentPrice": 326.81,
+      "prevWeekPrice": 337.14,
+      "volumeRatio": 1.37,
+      "rsi": 28.4,
+      "score": 15.38,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが28.4と極めて売られ過ぎの水準にあり、テクニカル的なリバウンドが期待される。今週の出来高が平均の1.37倍と高く、売りが一巡した可能性がある。ただし、直近ニュースがなく触媒不明のため上昇幅は限定的か。",
+      "keyFactors": [
+        "RSI 28.4の売られ過ぎシグナル",
+        "出来高増加（平均比1.37倍）による売り一巡の可能性",
+        "今週-3.06%の下落後のテクニカルリバウンド期待"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "FFIV",
+      "weeklyReturn": 2.14,
+      "currentPrice": 362.58,
+      "prevWeekPrice": 354.98,
+      "volumeRatio": 0.8,
+      "rsi": 88.0,
+      "score": 15.3498,
+      "direction": "DOWN",
+      "confidence": 4,
+      "reason": "RSIが88.0と極めて過買い水準にあり、短期的な調整局面入りの可能性が高い。出来高比率が0.8xと平均を下回っており、上昇トレンドを支える買い圧力が弱まっている兆候が見られる。直近ニュースがない中でのテクニカル的な過熱感は、利益確定売りを誘発しやすい環境と判断する。",
+      "keyFactors": [
+        "RSI 88.0という極端な過買いシグナル",
+        "出来高が平均の0.8倍と低水準で上昇を支持する力が弱い",
+        "直近2週間で約2%上昇しており短期的な利益確定売り圧力が高まる"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "PPL",
+      "weeklyReturn": -4.04,
+      "currentPrice": 34.88,
+      "prevWeekPrice": 36.35,
+      "volumeRatio": 0.85,
+      "rsi": 17.9,
+      "score": 15.3284,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが17.9という極めて売られすぎの水準に達しており、テクニカル的なリバウンドが期待される。今週-4.04%の下落と平均を下回る出来高は売り圧力の一巡を示唆している。ただし、ニュースが不明なため下落の根本原因が不透明であり、確信度は中程度にとどまる。",
+      "keyFactors": [
+        "RSI17.9という極度の売られすぎシグナル",
+        "今週-4.04%の大幅下落後のリバウンド期待",
+        "出来高が平均の0.85倍と低く、売りの勢いが弱まっている"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "CTSH",
+      "weeklyReturn": -1.26,
+      "currentPrice": 47.13,
+      "prevWeekPrice": 47.73,
+      "volumeRatio": 1.15,
+      "rsi": 18.9,
+      "score": 15.2275,
+      "direction": "UP",
+      "confidence": 4,
+      "reason": "RSIが18.9と極度の売られ過ぎ水準にあり、テクニカルリバウンドの可能性が非常に高い。出来高比率が1.15倍と平均を上回っており、売りが一巡しつつある可能性を示唆している。過去の経験則では、RSI20以下は短期的な底打ちシグナルとして機能することが多い。",
+      "keyFactors": [
+        "RSI18.9という極度の売られ過ぎ状態によるテクニカルリバウンド期待",
+        "出来高1.15倍と平均を上回り売り圧力の一巡を示唆",
+        "先週-1.26%の下落後の自律反発の可能性"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "ISRG",
+      "weeklyReturn": -2.49,
+      "currentPrice": 421.12,
+      "prevWeekPrice": 431.87,
+      "volumeRatio": 1.11,
+      "rsi": 21.1,
+      "score": 15.1701,
+      "direction": "UP",
+      "confidence": 4,
+      "reason": "RSIが21.1と極度の売られすぎ水準にあり、テクニカルリバウンドの可能性が高い。今週-2.49%の下落と平均を上回る出来高（1.11倍）は売り圧力の一巡を示唆しており、短期的な反発が期待される。ISRGは手術ロボット市場でのリーダー的地位を持つファンダメンタルズ堅固な銘柄であり、過剰な売られすぎからの回復が見込まれる。",
+      "keyFactors": [
+        "RSI 21.1 - 極度の売られすぎシグナル（30以下で買いシグナル）",
+        "今週-2.49%の下落による短期的な過売り状態",
+        "出来高が平均の1.11倍と高く、売り一巡の可能性"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "DOC",
+      "weeklyReturn": -2.12,
+      "currentPrice": 19.36,
+      "prevWeekPrice": 19.78,
+      "volumeRatio": 0.97,
+      "rsi": 83.3,
+      "score": 15.1432,
+      "direction": "DOWN",
+      "confidence": 4,
+      "reason": "RSIが83.3と著しく買われすぎの水準にあり、短期的な調整圧力が強い。今週すでに-2.12%の下落を示しており、過熱感からの利益確定売りが継続する可能性が高い。直近のニュースがなく、新たな買い材料も見当たらない状況では、テクニカル的な売り圧力が優勢となるだろう。",
+      "keyFactors": [
+        "RSI83.3の買われすぎシグナル",
+        "今週-2.12%の下落トレンド継続",
+        "新規の買い材料となるニュースの不在"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "AKAM",
+      "weeklyReturn": 0.88,
+      "currentPrice": 150.88,
+      "prevWeekPrice": 149.56,
+      "volumeRatio": 1.25,
+      "rsi": 79.2,
+      "score": 15.1158,
+      "direction": "DOWN",
+      "confidence": 3,
+      "reason": "RSIが79.2と強い買われ過ぎ水準にあり、短期的な調整圧力が高まっている。出来高が平均の1.25倍と増加しているものの、過熱感が顕著であり、利益確定売りが入りやすい局面と判断される。直近ニュースが不在のため、新たな上昇カタリストが見当たらない。",
+      "keyFactors": [
+        "RSI 79.2の強い買われ過ぎシグナル",
+        "出来高増加による短期加熱感",
+        "新規材料不在によるカタリスト欠如"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "BIO",
+      "weeklyReturn": 2.41,
+      "currentPrice": 247.53,
+      "prevWeekPrice": 241.71,
+      "volumeRatio": 1.09,
+      "rsi": 20.7,
+      "score": 15.0465,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが20.7と極めて深い売られすぎ水準にあり、テクニカルリバウンドの可能性が高い。今週すでに2.41%の上昇を見せており、底値圏からの反発トレンドが始まっている可能性がある。ただし、直近ニュースがなく材料面での不透明感があるため、確信度は中程度にとどまる。",
+      "keyFactors": [
+        "RSI 20.7の極端な売られすぎ水準",
+        "今週2.41%の週間上昇でリバウンド開始の兆し",
+        "出来高比率1.09xで平均並みの取引量"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "UDR",
+      "weeklyReturn": -1.2,
+      "currentPrice": 36.92,
+      "prevWeekPrice": 37.37,
+      "volumeRatio": 1.22,
+      "rsi": 79.2,
+      "score": 15.0464,
+      "direction": "DOWN",
+      "confidence": 4,
+      "reason": "RSIが79.2と極めて過買い水準にあり、短期的な調整圧力が高まっている。今週すでに-1.2%の下落を示しており、売り圧力が継続する可能性が高い。出来高比率が1.22倍と平均を上回っており、売りの勢いが増している兆候が見られる。",
+      "keyFactors": [
+        "RSI 79.2の過買い水準による調整リスク",
+        "今週-1.2%の下落トレンドの継続",
+        "出来高が平均比1.22倍と高水準"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "CME",
+      "weeklyReturn": 4.59,
+      "currentPrice": 298.86,
+      "prevWeekPrice": 285.75,
+      "volumeRatio": 1.15,
+      "rsi": 72.2,
+      "score": 15.0027,
+      "direction": "DOWN",
+      "confidence": 3,
+      "reason": "RSIが72.2と過買い領域に達しており、短期的な調整圧力が高まっている。先週4.59%の上昇を記録した後、利益確定売りが入りやすい状況にある。出来高比率が1.15倍とやや高めで、上昇トレンドの終盤を示唆している可能性がある。",
+      "keyFactors": [
+        "RSI 72.2の過買いシグナル",
+        "先週4.59%上昇後の利益確定売り圧力",
+        "平均より15%高い出来高による短期的な過熱感"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "OMC",
+      "weeklyReturn": -6.85,
+      "currentPrice": 70.83,
+      "prevWeekPrice": 76.04,
+      "volumeRatio": 1.02,
+      "rsi": 30.4,
+      "score": 14.8663,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが30.4と過売り圏に近い水準まで低下しており、テクニカル的なリバウンドの可能性が示唆される。直近1週間で約6.85%の急落を記録しており、短期的な売られ過ぎからの反発が期待できる。ただし、ニュースが確認できないため、下落の根本的な原因が不明であり、不確実性が残る。",
+      "keyFactors": [
+        "RSI 30.4付近の過売り水準による技術的反発の可能性",
+        "1週間で-6.85%という急落後のリバウンド期待",
+        "出来高比率1.02xと平均的で、パニック売りの兆候は限定的"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "TPL",
+      "weeklyReturn": -4.04,
+      "currentPrice": 385.17,
+      "prevWeekPrice": 401.39,
+      "volumeRatio": 1.02,
+      "rsi": 23.6,
+      "score": 14.8298,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが23.6と極めて低い水準にあり、強い売られ過ぎのシグナルを示している。直近1週間で約4%の下落を経験した後、テクニカルなリバウンドが期待される。ただし、特定のニュースや材料が不明なため、確信度は中程度にとどまる。",
+      "keyFactors": [
+        "RSI 23.6の極端な売られ過ぎ水準によるリバウンド期待",
+        "週間-4.04%の下落後のテクニカル反発の可能性",
+        "出来高が平均とほぼ同水準(1.02x)で異常な売り圧力は確認されず"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "BKNG",
+      "weeklyReturn": -4.0,
+      "currentPrice": 154.13,
+      "prevWeekPrice": 160.56,
+      "volumeRatio": 1.01,
+      "rsi": 23.5,
+      "score": 14.7525,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが23.5と極度の売られすぎ水準にあり、テクニカルなリバウンドが期待される。今週-4.0%の下落で短期的な売り圧力が出尽くした可能性があり、平均的な出来高（1.01x）は過度なパニック売りではないことを示している。ただし、直近ニュースが不明なため、ファンダメンタルズ面のリスクは残る。",
+      "keyFactors": [
+        "RSI 23.5と極度の売られすぎシグナル",
+        "今週-4.0%下落後のテクニカルリバウンド期待",
+        "出来高が平均並みで需給の安定を示唆"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "DVA",
+      "weeklyReturn": -0.4,
+      "currentPrice": 199.74,
+      "prevWeekPrice": 200.54,
+      "volumeRatio": 1.06,
+      "rsi": 84.2,
+      "score": 14.6893,
+      "direction": "DOWN",
+      "confidence": 4,
+      "reason": "RSIが84.2と極めて過買い圏に達しており、短期的な調整圧力が強まっている。直近週でわずかながら下落（-0.4%）しており、高RSIからの反転シグナルが示唆される。特段の好材料となるニュースも見当たらないため、テクニカル面での売り圧力が優勢となる可能性が高い。",
+      "keyFactors": [
+        "RSI 84.2の極度な過買い状態",
+        "先週比マイナスリターンによる上昇モメンタムの減衰",
+        "ニュース不在による新規買い材料の欠如"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "MNST",
+      "weeklyReturn": 1.42,
+      "currentPrice": 87.09,
+      "prevWeekPrice": 85.87,
+      "volumeRatio": 1.21,
+      "rsi": 77.8,
+      "score": 14.5863,
+      "direction": "DOWN",
+      "confidence": 3,
+      "reason": "RSIが77.8と強い買われすぎ水準に達しており、短期的な調整圧力が高まっている。今週の出来高が平均の1.21倍と増加しており、上昇モメンタムが一時的に強かったものの、過熱感から利益確定売りが入りやすい状況にある。直近のニュースが不在のため、新たな上昇トリガーが見当たらず、テクニカル面での調整が予想される。",
+      "keyFactors": [
+        "RSI77.8による買われすぎシグナル",
+        "出来高増加後の利益確定売り圧力",
+        "新規材料不在によるモメンタム減衰リスク"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "BLDR",
+      "weeklyReturn": -3.26,
+      "currentPrice": 70.41,
+      "prevWeekPrice": 72.78,
+      "volumeRatio": 1.0,
+      "rsi": 21.8,
+      "score": 14.5505,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが21.8と極めて深い売られすぎ水準に達しており、テクニカル的なリバウンドの可能性が高い。今週の-3.26%の下落により短期的な売り圧力が一巡した可能性があり、平均的な出来高（1.0x）はパニック売りではなく通常の調整を示唆している。ただし、住宅建設関連セクターへの懸念や金利環境の影響が続く場合は上値が限定される可能性もある。",
+      "keyFactors": [
+        "RSI 21.8の極端な売られすぎシグナル",
+        "出来高が平均並みでパニック売りなし",
+        "住宅建設セクターの金利感応度リスク"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "PEG",
+      "weeklyReturn": -2.77,
+      "currentPrice": 76.44,
+      "prevWeekPrice": 78.62,
+      "volumeRatio": 1.62,
+      "rsi": 36.0,
+      "score": 14.5303,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが36.0と売られすぎに近い水準まで低下しており、テクニカル的なリバウンドの可能性が高まっている。今週の出来高が平均の1.62倍と高い水準で、売り圧力がピークに達した可能性がある。公益事業セクターは安定配当が魅力であり、過度な下落後の買い戻しが期待される。",
+      "keyFactors": [
+        "RSI36.0の売られすぎシグナル",
+        "出来高1.62倍による売り圧力のピークアウト示唆",
+        "公益事業セクターの安定性と配当の魅力"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "CHTR",
+      "weeklyReturn": -5.13,
+      "currentPrice": 140.33,
+      "prevWeekPrice": 147.92,
+      "volumeRatio": 1.05,
+      "rsi": 28.0,
+      "score": 14.4443,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが28.0と極端な売られすぎ水準にあり、テクニカル的なリバウンドの可能性が高い。今週すでに-5.13%の下落を記録しており、短期的な反発の条件が整っている。ただし、ニュースが不明なため根本的な下落要因が継続するリスクも排除できない。",
+      "keyFactors": [
+        "RSI 28.0の売られすぎシグナル",
+        "今週-5.13%の急落後のリバウンド期待",
+        "出来高比率1.05xで特段の異常なし"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "QCOM",
+      "weeklyReturn": -4.19,
+      "currentPrice": 201.49,
+      "prevWeekPrice": 210.31,
+      "volumeRatio": 1.36,
+      "rsi": 66.6,
+      "score": 14.4124,
+      "direction": "DOWN",
+      "confidence": 3,
+      "reason": "QCOMは先週-4.19%の下落を記録し、平均を上回る取引量（1.36倍）が売り圧力の強さを示唆している。RSIが66.6と過買い圏に近い水準にあり、さらなる調整リスクが存在する。直近のニュースがない中、テクニカル指標は短期的な下押し圧力を示している。",
+      "keyFactors": [
+        "先週の-4.19%下落による下降モメンタム",
+        "平均の1.36倍の高い取引量が売り圧力を示唆",
+        "RSI 66.6と過買い圏に近く、調整リスクあり"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "MKTX",
+      "weeklyReturn": -2.07,
+      "currentPrice": 138.45,
+      "prevWeekPrice": 141.37,
+      "volumeRatio": 1.16,
+      "rsi": 23.2,
+      "score": 14.3809,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが23.2と極めて低い水準にあり、株価が著しく売られすぎの状態を示している。テクニカル的なリバウンドの可能性が高く、短期的な買い戻しが期待される。ただし、最近のニュースがなく、根本的な下落要因が不明であるため、確信度は中程度にとどまる。",
+      "keyFactors": [
+        "RSI 23.2の極端な売られすぎシグナル",
+        "週次リターン-2.07%による短期的な過剰売り",
+        "出来高比率1.16倍と平均を上回る取引量"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "FIS",
+      "weeklyReturn": -2.81,
+      "currentPrice": 41.8,
+      "prevWeekPrice": 43.01,
+      "volumeRatio": 1.47,
+      "rsi": 33.0,
+      "score": 14.3121,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが33.0と過売り圏に近い水準まで低下しており、テクニカルなリバウンドが期待される。出来高が平均の1.47倍と増加しており、売り圧力が一巡した可能性がある。ただし、直近週で-2.81%の下落を記録しており、ニュースが不明なため不確実性は残る。",
+      "keyFactors": [
+        "RSI過売り水準",
+        "出来高増加",
+        "テクニカルリバウンド期待"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "MLM",
+      "weeklyReturn": -3.87,
+      "currentPrice": 558.66,
+      "prevWeekPrice": 581.14,
+      "volumeRatio": 0.98,
+      "rsi": 23.5,
+      "score": 14.2996,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが23.5と極めて低い水準にあり、株価が売られ過ぎの状態を示している。先週は-3.87%の下落を記録したが、テクニカル的な反発が期待される。ただし、ニュースが不在で方向性を確認する材料が乏しく、確信度は中程度にとどまる。",
+      "keyFactors": [
+        "RSI 23.5の極端な売られ過ぎシグナル",
+        "先週-3.87%の下落後のテクニカルリバウンド期待",
+        "出来高比率0.98xで平均的な売買水準、パニック売りではない"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "SJM",
+      "weeklyReturn": 1.32,
+      "currentPrice": 100.54,
+      "prevWeekPrice": 99.23,
+      "volumeRatio": 1.33,
+      "rsi": 73.8,
+      "score": 14.1509,
+      "direction": "DOWN",
+      "confidence": 3,
+      "reason": "RSIが73.8と過買い領域に達しており、短期的な調整圧力が高まっている。出来高が平均の1.33倍と増加していることは、現在の上昇トレンドの最終局面を示唆する可能性がある。直近1週間で1.32%の上昇後、利益確定売りが入りやすいタイミングと判断される。",
+      "keyFactors": [
+        "RSI73.8による過買いシグナル",
+        "平均比1.33倍の高出来高",
+        "直近週の上昇後の利益確定売り圧力"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "AOS",
+      "weeklyReturn": -3.58,
+      "currentPrice": 56.01,
+      "prevWeekPrice": 58.09,
+      "volumeRatio": 0.92,
+      "rsi": 21.7,
+      "score": 14.1407,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが21.7と極めて売られ過ぎの水準にあり、テクニカル的なリバウンドが期待される。今週の-3.58%の下落と平均を下回る出来高は売り圧力の弱まりを示唆しており、短期的な反発の可能性がある。ただし、ニュースがなく下落の根本原因が不明なため、回復の持続性には不確実性が残る。",
+      "keyFactors": [
+        "RSI 21.7の極端な売られ過ぎシグナル",
+        "出来高比率0.92xによる売り圧力の低下",
+        "直近週-3.58%の急落後のテクニカルリバウンド期待"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "GRMN",
+      "weeklyReturn": -4.73,
+      "currentPrice": 225.75,
+      "prevWeekPrice": 236.97,
+      "volumeRatio": 0.99,
+      "rsi": 26.7,
+      "score": 13.9345,
+      "direction": "UP",
+      "confidence": 3,
+      "reason": "RSIが26.7と極端な過売り水準に達しており、テクニカル的なリバウンドが期待される。先週約4.7%の大幅下落を記録したが、出来高は平均並みであり、パニック売りではなく通常の調整と考えられる。ただし、直近ニュースがなく下落要因が不明瞭なため、確信度は中程度にとどまる。",
+      "keyFactors": [
+        "RSI過売りシグナル (26.7)",
+        "先週の大幅下落からの反発期待",
+        "出来高は平均並みで異常なし"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "KO",
+      "weeklyReturn": 0.99,
+      "currentPrice": 80.82,
+      "prevWeekPrice": 80.03,
+      "volumeRatio": 1.01,
+      "rsi": 82.2,
+      "score": 13.9344,
+      "direction": "DOWN",
+      "confidence": 4,
+      "reason": "RSIが82.2と著しく買われ過ぎの水準にあり、短期的な調整圧力が高まっている。今週すでに約1%上昇しており、テクニカル的な利益確定売りが出やすい状況にある。ニュースがない中での過熱感は、来週の下落リスクを示唆している。",
+      "keyFactors": [
+        "RSI 82.2の極端な買われ過ぎシグナル",
+        "テクニカル調整の可能性が高い水準",
+        "ボリュームが平均並みで上昇の勢いに欠ける"
+      ],
+      "news": "No recent news available."
+    },
+    {
+      "ticker": "AIZ",
+      "weeklyReturn": 4.59,
+      "currentPrice": 254.61,
+      "prevWeekPrice": 243.43,
+      "volumeRatio": 1.07,
+      "rsi": 71.3,
+      "score": 13.8718,
+      "direction": "DOWN",
+      "confidence": 3,
+      "reason": "RSIが71.3と買われすぎの水準に達しており、短期的な調整圧力が高まっている。今週の4.59%の上昇後、利益確定売りが入りやすい状況にある。出来高比率は1.07倍と平均的で、上昇トレンドを強く支持するような大きな買い意欲は見られない。",
+      "keyFactors": [
+        "RSI 71.3による過買いシグナル",
+        "週間4.59%上昇後の利益確定売り圧力",
+        "目立ったニュースや材料不在による方向性の不透明感"
+      ],
+      "news": "No recent news available."
+    }
+  ]
 }
