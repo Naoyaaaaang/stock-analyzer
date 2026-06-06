@@ -1,9 +1,9 @@
 name: Weekly Stock Analysis (Monday)
 
 on:
-  schedule:
-    - cron: '0 1 * * 1'   # 毎週月曜 UTC1:00 (JST10:00)
-    - cron: '5 1 * * 1'   # フォールバック
+  # schedule:
+  #   - cron: '0 1 * * 1'   # 毎週月曜 UTC1:00 (JST10:00)
+  #   - cron: '5 1 * * 1'   # フォールバック
   workflow_dispatch:
 
 jobs:

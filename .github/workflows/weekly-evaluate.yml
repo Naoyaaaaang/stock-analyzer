@@ -1,9 +1,9 @@
 name: Weekly Evaluation (Friday)
 
 on:
-  schedule:
-    - cron: '0 7 * * 5'   # 毎週金曜 UTC7:00 (JST16:00) 米国市場クローズ後
-    - cron: '5 7 * * 5'   # フォールバック
+  # schedule:
+  #   - cron: '0 7 * * 5'   # 毎週金曜 UTC7:00 (JST16:00) 米国市場クローズ後
+  #   - cron: '5 7 * * 5'   # フォールバック
   workflow_dispatch:
 
 jobs:
